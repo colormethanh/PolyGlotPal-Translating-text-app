@@ -1,0 +1,77 @@
+
+#settings {
+  position: absolute;
+  height: 100%;
+  width: fit-content;
+  z-index: 10;
+  display: flex;
+  flex-direction: row;
+}
+
+#settingsImage {
+  max-height: 75%;
+  margin: auto;
+  cursor: pointer;
+  z-index: 5;
+}
+
+#language-display {
+  position: relative;
+  z-index: inherit;
+  height: 100%;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+
+#settings-panel-container{
+  position: absolute;
+  text-wrap: nowrap;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  transition: top 1s;
+  z-index: 0;
+}
+
+.settings-closed{
+  top: -200px;
+}
+.settings-opened{
+  top: 100%;
+}
+
+
+.setting-wrapper {
+  height: 3rem;
+  border: 2px solid black;
+  border-bottom: 0px;
+  padding: 1px 15px;
+  display: flex;
+  font-size: large;
+  font-weight: 500;
+  display: block;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+}
+
+.setting-wrapper:hover {
+  background-color: rgb(102, 177, 139, .99);
+  cursor: pointer;
+}
+
+.language-display-text {
+  margin: 0px 0px;
+  font-weight: bold;
+}
+
+.block {
+  position: absolute;
+  width: 15rem;
+  height: 100%;
+  background-color: aliceblue;
+}
+

@@ -1,0 +1,23 @@
+#app-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background-image: url('./assets/backgrounds/PolyGlotPal-bg-drk-2.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+#chat-box {
+  background-color: rgb(102, 177, 139, .99);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 46%;
+  height: 75%;
+  padding: 15px;
+  border-radius: 10px;
+  
+}
+
+

@@ -1,0 +1,37 @@
+
+.message-wrapper {
+  min-height: 4rem;
+  margin: 5px;
+  max-width: 45%;
+  display: flex;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.message-bubble {
+  font-size: large;
+  padding: 5px 20px;
+  word-wrap: break-word;
+  align-self: center;
+}
+
+.sent {
+  background-color: aliceblue;
+  text-align: right;
+  margin-left: auto;
+  margin-bottom: 15px;
+  flex-direction: row-reverse;
+}
+
+.received {
+  background-color: #8DDBE0;
+  text-align: left;
+  margin-right: auto;
+  margin-bottom: 15px;
+  flex-direction: row;
+}
+
+.profile-pic {
+  max-height: 4rem;
+  align-self: center;
+}
