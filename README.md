@@ -1,6 +1,6 @@
 ### React + Vite
 
-## URL: [https://poly-glot-pal-translating-text-d7vkohp73-colormethanhs-projects.vercel.app/](https://poly-glot-pal-translating-text-app.vercel.app/)
+## URL: https://poly-glot-pal-translating-text-app.vercel.app/
 
 # PolyGlotPal
 
